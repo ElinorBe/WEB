@@ -1,5 +1,5 @@
 .bgArea{
-    background-image: url("/images/bg.svg");
+    background-image: url("../images/bg.svg");
     background-color:#E8E8E8 ; 
     background-repeat: no-repeat; 
     background-position: center; 
