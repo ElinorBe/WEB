@@ -70,7 +70,7 @@
 }
 
 /* Phone */
-@media (max-width:375px) {
+@media (max-width:400px) {
     .bgArea{
         margin-top: -3em;
         background-size: 45em;
