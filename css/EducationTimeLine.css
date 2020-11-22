@@ -84,30 +84,11 @@
   }
   .ml-6{
     margin-left: -13rem;
-        }
+  }
   
+  /* Phone */
   @media screen and (max-width: 600px) {
-    /* Place the timelime to the left */
-      .timeline::after {
-        left: 31px;
-      }
-    
-    /* Full-width containers */
-      .container-timeLine {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
-      }
-    
-    /* Make sure that all arrows are pointing leftwards */
-      .container-timeLine::before {
-        left: 60px;
-        border: medium solid white;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent white transparent transparent;
-      }
-    /* Make all right containers behave like the left ones */
-      .right {
-        left: 0%;
-      }
+    .resume, .experience{
+      margin-left: 1.5em;
     }
+  }

@@ -61,9 +61,44 @@
     border:none;
 }
 #ABOUT{
+    padding-top: 9em;
     height: 57em;
     background-color: #F5F5F5;
 }
 #RESUME{
     height: 35em;
+}
+
+/* Phone */
+@media (max-width:375px) {
+    .bgArea{
+        margin-top: -3em;
+        background-size: 45em;
+        height: 54em; 
+        
+    }
+
+    #Elinor{
+        font-size: 35px;
+    }
+
+    #ABOUT{
+        padding-top: 3em !important;
+        height: 58em;
+    }
+
+    #RESUME{
+        margin-bottom: 38em;
+    }
+    #details_Paragraph{
+        margin-top: 3em !important;
+    }
+
+    #lover{
+        font-size: 27px;
+    }
+
+    button{
+        font-size: 17px !important;
+    }
 }
